@@ -1,0 +1,27 @@
+.wrapperInfo{
+    height: 100%;
+    width: 745px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left:40px;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+.headerInfo{
+    padding: 0px 30px 10px 30px;
+    margin-left: -40px;
+    background-color: rgb(248, 248, 248);   
+}
+.editButton{
+    width: 40px;
+    opacity: 0.5;
+    margin: 10px;
+    align-self: flex-end;
+}
+.editButton:hover{
+    opacity: 1;
+}
+.editButton:focus{
+   outline: none;
+}

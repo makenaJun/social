@@ -1,0 +1,55 @@
+.navigation{
+  grid-area: navbar;
+}
+.item{
+  padding: 3px;
+  margin: 10px 3px 0 5px;
+}
+.item a.activeLink{
+  font-weight: 700;
+}
+.item a{
+  text-decoration: none;
+  color:#191919;
+}
+.item a:hover{
+  color: #20a7c9;
+}
+.separator{
+  border-top: 1px dashed #ccc;
+  margin: 15px 10px;
+}
+.profile::before{
+  content: url(../../assets/images/icon/home.png);
+  margin-right: 7px;
+}
+.messages::before{
+  content: url(../../assets/images/icon/email.png);
+  margin-right: 7px;
+}
+.news::before{
+  content: url(../../assets/images/icon/newspaper.png);
+  margin-right: 7px;
+}
+.music::before{
+  content: url(../../assets/images/icon/music.png);
+  margin-right: 7px;
+}
+.findUser::before{
+  content: url(../../assets/images/icon/search.png);
+  margin-right: 7px;
+}
+.settings::before{
+  content: url(../../assets/images/icon/settings.png);
+  margin-right: 7px;
+}
+.friends{
+  height: 90px;
+  text-align: center;
+}
+.wrapperAvaOnline{
+  display: flex;
+  height: 70px;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}

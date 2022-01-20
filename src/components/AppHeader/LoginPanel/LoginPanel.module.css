@@ -1,0 +1,6 @@
+.greeting {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    gap: 10px;
+}

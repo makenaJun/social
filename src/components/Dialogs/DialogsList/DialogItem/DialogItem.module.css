@@ -1,0 +1,23 @@
+.dialog{
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+}
+.dialog::before{
+    content: '	\25CF';
+    position: absolute;
+    top: 0.6em;
+    left: -5px;
+    color:rgb(138, 179, 255);
+}
+.dialog a{
+    text-decoration: none;
+}
+.dialog a:hover{
+    color: #191919;
+    font-weight: 600;
+}
+.active{
+    color: #191919;
+    font-size: 1.5em;
+}

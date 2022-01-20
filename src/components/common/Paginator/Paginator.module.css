@@ -1,0 +1,29 @@
+.selected{
+    font-weight: 700;
+}
+.item{
+    font-size: 1rem;
+    border:1px solid #191919;
+    border-radius: 4px;
+    padding: 2px 4px;
+    margin: 0 2px;
+    text-decoration: none;
+    color: #191919;
+}
+.item:hover{
+    background-color: #fff;
+    border:1px solid #000;
+    color: #000;
+}
+.button{
+    cursor: pointer;
+    font-size: 1rem;
+    border:1px solid #191919;
+    border-radius: 4px;
+}
+.button:hover{
+    background-color: #fff;
+}
+.button:focus{
+    outline: none;
+}

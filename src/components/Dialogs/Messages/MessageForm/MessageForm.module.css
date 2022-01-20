@@ -1,0 +1,37 @@
+.wrapper{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.addArea {
+    width: 672px;
+    height: 3rem;
+    resize: vertical;
+    border: 1px dashed #b3b3b3;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.addArea:focus{
+   padding: 5px;
+   outline: none;
+   border: 1px dashed #191919;
+}
+
+.addButton{
+    height: 30px;
+    margin-top: 5px;
+    font-size: 1rem;
+    background-color: #357F90;
+    color: #fff;
+    border: 1px solid #357F90;
+    border-radius: 4px;
+}
+.addButton:focus{
+    outline:none;
+}
+.addButton:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #191919;
+}

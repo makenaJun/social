@@ -1,0 +1,29 @@
+.post{
+    display: flex;
+    margin-top: 1rem;
+}
+.avatar {
+    height: 60px;
+    width: 60px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.avatar img{
+    width: 100%;
+}
+
+.message{
+    width: 800px;
+    padding: 10px;
+    margin: 5px 10px 5px 10px;
+    background-color:#fff;
+    border:1px dashed #191919;
+    border-radius: 3px;
+}
+.likesCount{
+    margin-top: 12px;
+}
+.likesCount::before{
+    content: '\2764';
+    color: #357F90;
+}

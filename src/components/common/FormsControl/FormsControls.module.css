@@ -1,0 +1,21 @@
+.formControl.error input,
+.formControl.error textarea {
+    border: 1px solid #e90000;
+    box-shadow: 0 0 2px rgba(233, 0, 0, 0.4);
+}
+.formControl.error span {
+    padding: 0 5px;
+    background-color: #e90000;
+    border-radius: 4px;
+    color: #fff;
+    font-family: monospace;
+    font-size: 1.2rem;
+}
+.formSummaryError{
+    padding: 5px;
+    background-color: #e90000;
+    border-radius: 4px;
+    color:#fff;
+    font-family: monospace;
+    font-size: 1.3rem;
+}
